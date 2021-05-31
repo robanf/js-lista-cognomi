@@ -11,7 +11,8 @@ listacognomi.sort();
 var pos = listacognomi.indexOf(cognome);
 
 for(var i=0 ; i<listacognomi.length; i++){
-    document.getElementById("cognomi").innerHTML+= " " + listacognomi[i];
+    document.getElementById("cognomi").innerHTML+=(i+1) + listacognomi[i] + "<br>";
+
 }
 
 document.getElementById("pos").innerHTML= pos+1;
