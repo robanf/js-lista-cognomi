@@ -1,10 +1,10 @@
 var cognome= prompt('dimmi il tuo cognome');
 
+cognome=cognome.charAt(0).toUpperCase() + cognome.slice(1);
+
 var listacognomi= [ 'Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 
 listacognomi.push(cognome);
-
-
 
 listacognomi.sort();
 
